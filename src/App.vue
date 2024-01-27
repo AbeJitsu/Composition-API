@@ -18,24 +18,16 @@ export default {
       age: 46,
     });
 
-    
     setTimeout(function () {
       // uName.value = 'Abiezer',
       // uAge.value = 47
-      (user.name = 'Abiezer'),
-       (user.age = 46);
+      (user.name = 'Abiezer'), (user.age = 57);
     }, 2000);
 
     return {
-      
       user: user,
     };
   },
-  // data() {
-  //   return {
-  //     userName: 'Maximilian',
-  //   };
-  // },
 };
 </script>
 
